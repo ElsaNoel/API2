@@ -1,8 +1,7 @@
 from flask import Flask, request, jsonify
 # Add needed package
 import pickle
-# import numpy as np
-import pyforest
+import numpy as np
 import pandas as pd
 import sklearn
 from lightgbm import LGBMClassifier
